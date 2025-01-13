@@ -1,0 +1,87 @@
+# Visual Studio e arquivos gerais do sistema
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.ide
+*.DS_Store
+*.directory
+Thumbs.db
+*.log
+
+# Build
+bin/
+obj/
+Debug/
+Release/
+
+# Arquivos temporários, cache e pacotes
+*.rsuser
+*.log
+*.tlog
+*.ide
+*.cache
+*.pdb
+*.ilk
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.tmp
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+*.vsdconfig
+*.vspx
+*.vsxproj
+*.vsxproj.user
+*.csproj.user
+
+# Logs e dados temporários do sistema
+logs/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Configurações de publicação local
+publish/
+
+# Pacotes gerados pelo NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Outras dependências do sistema
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Configurações específicas do Visual Studio Code
+.vscode/
+
+# Arquivos de teste
+TestResults/
+
+# Cache e backup
+~$*
+*.log
+
+# Arquivos de configuração do Rider (JetBrains IDE)
+.idea/
+*.iml
+
+# Secrets e configurações sensíveis
+secrets.json
+appsettings.Development.json
+appsettings.local.json
+
+# Snapshots
+.snapshots/
+
+# Arquivos gerados pelo DotNet CLI
+!global.json
